@@ -147,8 +147,10 @@ fn fib_for(n: u8) {
 }
 
 fn main() {
-    let n = 10;
-    fib_loop(n);
+    // let n = 10;
+    // fib_loop(n);
     // fib_while(n);
     // fib_for(n);
+    let str = "hello world!".to_string();
+    println!("str: {}", str);
 }
